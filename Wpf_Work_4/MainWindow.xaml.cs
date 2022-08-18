@@ -26,7 +26,7 @@ namespace Wpf_Work_4
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            rez_D.Text =Convert.ToString(Convert.ToDouble(curs_D.Text) * Convert.ToDouble(summa_D.Text));
+            rez_D.Text = Convert.ToString(Convert.ToDouble(curs_D.Text) * Convert.ToDouble(summa_D.Text));
         }
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {

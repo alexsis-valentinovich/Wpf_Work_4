@@ -10,7 +10,7 @@
         <TabControl>
             <TabItem Header="Валюты">
                 <UniformGrid Rows="2" Columns="2">
-                    
+
                     <GroupBox Header="Доллары в рубли"  Margin="5" Padding="5" BorderBrush="Blue" BorderThickness="3">
                         <Grid>
                             <Grid.RowDefinitions>
@@ -25,13 +25,13 @@
                             </Grid.ColumnDefinitions>
                             <Label Content="Введите курс доллара" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                             <TextBox x:Name="curs_D" Grid.Column="1" Margin="3" Padding="3" TextAlignment="Center" VerticalAlignment="Center"/>
-                            
+
                             <Label Content="Сумма" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                             <TextBox x:Name="summa_D" Grid.Row="1" Grid.Column="1" Margin="3" Padding="3" TextAlignment="Center" VerticalAlignment="Center"/>
 
                             <Label Content="Результат" Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                             <TextBox x:Name="rez_D" Grid.Row="3" Grid.Column="1" Margin="3" Padding="3" TextAlignment="Center" VerticalAlignment="Center"/>
-                            
+
                             <Button Grid.Row="2" Grid.ColumnSpan="2" Margin="10, 5" Content="Расчитать" Click="Button_Click"/>
                         </Grid>
                     </GroupBox>
@@ -113,9 +113,9 @@
                 </UniformGrid>
             </TabItem>
 
-                <TabItem Header="Растояние">
+            <TabItem Header="Растояние">
                 <UniformGrid Rows="2" Columns="2">
-                    
+
                     <GroupBox Header="Дюймы в метры"  Margin="5" Padding="5" BorderBrush="Blue" BorderThickness="3">
                         <Grid>
                             <Grid.RowDefinitions>
@@ -203,6 +203,6 @@
             </TabItem>
 
         </TabControl>
-        
+
     </Grid>
 </Window>
